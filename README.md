@@ -1,10 +1,10 @@
 # BusApp
-This program is a study project. The requirement was to prepare the app in Polish.\
-A purpose of the app is connecting to a database (set up locally) to show or insert data. The database consists of driver and bus data, bus stops, bus line (route), ride and their relationships.\
+This program is a study project. The requirement was to prepare the app in Polish.
+A purpose of the app is connecting to a database (set up locally) to show or insert data. The database consists of driver and bus data, bus stops, bus line (route), ride and their relationships.
 
 ![image](https://user-images.githubusercontent.com/79938517/217394432-02a55b3c-4998-4f6d-b48f-b50cffd3cf74.png)
 
-The app has really simple signing in. Any user can see simple info about any bus and check a timetable or routes between 2 stops. User logged in as a driver can obtain all information from any table. If you sign in to admin account you can additionally insert a new record to any table. The database checks if data are valid (driver/bus can have only one ride at the same time or there cannot be a bus stop twice) and raises exception (showing an error dialogue window) otherwise.\
+The app has really simple signing in. Any user can see simple info about any bus and check a timetable or routes between 2 stops. User logged in as a driver can obtain all information from any table. If you sign in to admin account you can additionally insert a new record to any table. The database checks if data are valid (driver/bus can have only one ride at the same time or there cannot be a bus stop twice) and raises exception (showing an error dialogue window) otherwise.
 
 <p align=center>
 <img src=https://user-images.githubusercontent.com/79938517/217394577-8ef55d9c-627e-464c-ac3b-3da0525ad85e.png><BR>
