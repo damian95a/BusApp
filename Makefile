@@ -3,8 +3,8 @@ SOURCE	= query.cpp GUI.cpp main.cpp BusApp_Insertion.cpp BusApp_main_window.cpp 
 HEADER	= query.h BusApp_Insertion.h BusApp_main_window.h BusApp_printout.h GUI.h
 OUT	= a.out
 CC	 = g++
-FLAGS	 = -g -c -Wall `wx-config --cxxflags --libs`  -lpqxx -lpq
-LFLAGS	 = `wx-config --cxxflags --libs`  -lpqxx -lpq
+FLAGS	 = -g -c -Wall `wx-config --cxxflags`
+LFLAGS	 = `wx-config --libs` -lpqxx -lpq
 
 all: $(OBJS)
 	$(CC) -g $(OBJS) -o $(OUT) $(LFLAGS)
